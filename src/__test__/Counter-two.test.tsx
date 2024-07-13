@@ -2,8 +2,8 @@ import { render, screen } from "@testing-library/react";
 import CounterTwo from "@/components/counter-two/Counter-two";
 import user from "@testing-library/user-event";
 
-describe("Counter-two", () => {
-  test("should call function on button click", async () => {
+describe("Компонент Counter-two", () => {
+  test("Отработка функции по клику", async () => {
     user.setup();
     const incrementHandler = jest.fn();
     const decrementHandler = jest.fn();
